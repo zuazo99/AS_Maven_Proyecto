@@ -1,5 +1,4 @@
-
-
+package aplikazioa;
 
 public class App {
 

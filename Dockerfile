@@ -3,6 +3,7 @@ FROM maven:3.5.4-jdk-8-alpine as maven
 COPY ./pom.xml ./pom.xml
 
 COPY ./src  ./src
+#WORKDIR /app/
 
 RUN mvn dependency:go-offline -B
 
@@ -13,6 +14,6 @@ FROM openjdk:8u171-jre-alpine
 
 WORKDIR /app
 
-COPY --from=maven target/TrabajoAS-*.jar ./TrabajoAS.jar
+COPY --from=maven target/TrabajoAS-*.jar ./app/TrabajoAS.jar
 
-CMD ["java", "-jar", "./TrabajoAS.jar"]
+CMD ["java", "-jar", "./app/TrabajoAS.jar"]
