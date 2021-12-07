@@ -26,9 +26,9 @@ public class App {
     }
 
     public static void pideNumeros(){
-        System.out.println("Introduce numero 1:");
+        System.out.println("Introduce el primer valor ");
         num1 = sc.nextInt();
-        System.out.println("Introduce numero 2:");
+        System.out.println("Introduce el segundo valor:");
         num2 = sc.nextInt();
 
         System.out.println("\n");
