@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="aplikazioa.TestSuite" time="0.01" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="aplikazioa.TestSuite" time="0.015" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -41,7 +41,7 @@
     <property name="java.class.path" value="/snap/intellij-idea-community/337/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/snap/intellij-idea-community/337/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3 package"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3 test"/>
     <property name="java.home" value="/home/gaizka/.jdks/openjdk-17.0.1"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -58,14 +58,14 @@
     <property name="sun.cpu.endian" value="little"/>
   </properties>
   <testcase classname="[1] 1, 1, 0(testRestaParam(int, int, int))" name="[1] 1, 1, 0(testRestaParam" time="0.01"/>
-  <testcase classname="[2] 2, 1, 1(testRestaParam(int, int, int))" name="[2] 2, 1, 1(testRestaParam" time="0"/>
-  <testcase classname="[3] 1, 2, -1(testRestaParam(int, int, int))" name="[3] 1, 2, -1(testRestaParam" time="0"/>
+  <testcase classname="[2] 2, 1, 1(testRestaParam(int, int, int))" name="[2] 2, 1, 1(testRestaParam" time="0.001"/>
+  <testcase classname="[3] 1, 2, -1(testRestaParam(int, int, int))" name="[3] 1, 2, -1(testRestaParam" time="0.001"/>
   <testcase classname="[1] 1, 1, 2(testSumaParam(int, int, int))" name="[1] 1, 1, 2(testSumaParam" time="0"/>
   <testcase classname="[2] 2, 1, 3(testSumaParam(int, int, int))" name="[2] 2, 1, 3(testSumaParam" time="0"/>
   <testcase classname="[3] -1, -1, -2(testSumaParam(int, int, int))" name="[3] -1, -1, -2(testSumaParam" time="0"/>
-  <testcase classname="[1] 1, 1, 1(testMultiplicacionParam(int, int, int))" name="[1] 1, 1, 1(testMultiplicacionParam" time="0"/>
-  <testcase classname="[2] 2, 4, 8(testMultiplicacionParam(int, int, int))" name="[2] 2, 4, 8(testMultiplicacionParam" time="0"/>
-  <testcase classname="[3] -2, -2, 4(testMultiplicacionParam(int, int, int))" name="[3] -2, -2, 4(testMultiplicacionParam" time="0"/>
+  <testcase classname="[1] 1, 1, 1(testMultiplicacionParam(int, int, int))" name="[1] 1, 1, 1(testMultiplicacionParam" time="0.001"/>
+  <testcase classname="[2] 2, 4, 8(testMultiplicacionParam(int, int, int))" name="[2] 2, 4, 8(testMultiplicacionParam" time="0.001"/>
+  <testcase classname="[3] -2, -2, 4(testMultiplicacionParam(int, int, int))" name="[3] -2, -2, 4(testMultiplicacionParam" time="0.001"/>
   <testcase classname="[1] 1, 1, 1(testDivisionParam(int, int, int))" name="[1] 1, 1, 1(testDivisionParam" time="0"/>
   <testcase classname="[2] 8, 2, 4(testDivisionParam(int, int, int))" name="[2] 8, 2, 4(testDivisionParam" time="0"/>
   <testcase classname="[3] -2, -2, 1(testDivisionParam(int, int, int))" name="[3] -2, -2, 1(testDivisionParam" time="0"/>
