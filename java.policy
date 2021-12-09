@@ -1,4 +1,0 @@
-grant CodeBase "TrabajoAS.jar"
-{
-    permission java.security.AllPermission;
-};
