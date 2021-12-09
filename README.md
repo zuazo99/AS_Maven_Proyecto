@@ -2,7 +2,7 @@
 
 **Para ejecutar el docker-compose:**
 
-sudo docker-compose run app
+>sudo docker-compose run app
 
 **Para ejecutar el docker:**
 
