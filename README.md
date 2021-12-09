@@ -2,8 +2,8 @@
 
 **Para ejecutar el docker-compose:**
 
-docker-compose run app
+>docker-compose run app
 
 **Para ejecutar el docker:**
 
-docker run -it -v $HOME/data:/app/app/data zuazo99/maven_java_gaizka:v2
+>docker run -it -v $HOME/data:/app/app/data zuazo99/maven_java_gaizka:v2
