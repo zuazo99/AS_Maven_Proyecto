@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  mi-maven
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: maven
+  template:
+    metadata:
+      labels:
+        component: maven
+    spec:
+      containers:
+        - name: mi-maven
+          image: zuazo99/maven_java_gaizka:v2
+          volumeMounts:
+            - name: maven-volumen
+              mountPath: /app/app/data
+              subPath: $HOME/data
